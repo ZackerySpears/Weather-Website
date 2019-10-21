@@ -65,13 +65,16 @@
   <div id='template' style="display: none;">
     <div class="col-xs-12 col-lg-4">
       <div class='weatherCard'>
-        <!-- BUTTON TO REMOVE CARD -->
-        <button type='button' id='remove'>X</button>
-        <!-- LOCATION -->
-        <h1>@@city@@</h1>
-        <!-- CURRENT TEMP -->
-        <h1>@@currentTemp@@&#8457</h1>
-        <!-- LIST OF WEATHER INFO -->
+        <div id="background">
+          <!-- BUTTON TO REMOVE CARD -->
+          <button type='button' id='remove'>X</button>
+          <!-- LOCATION -->
+          
+          <h1>@@city@@</h1>
+          <!-- CURRENT TEMP -->
+          <h1>@@currentTemp@@&#8457</h1>
+          <!-- LIST OF WEATHER INFO -->
+        </div>  
         <ul class='list-group list-group-flush'>
           <li class='list-group-item'>Location: @@cityState@@</li>
           <li class='list-group-item'>Current Conditions:@@conditions@@</li>
